@@ -19,7 +19,7 @@ $(actions).on('change', function(e) {
 
 $('.purpose-radio-input.covid').on('change', function(e) {
   if(e.target.value === 'yes') {
-    window.location.replace('https://columbus.applyforhope.com/cols_era_bspc#/')
+    window.location.replace('https://columbus.applyforhope.org/cols_era2_BSPC')
     overlay.style.display = 'block';
   }
   else if(e.target.value === 'no') {
